@@ -39,7 +39,7 @@ IMPLEMENTATION
 
 I'm using a 24-bit BMP files/image as an input for this program. 
 
-In the #filter.c file, you can notice the definition of filters on line 11. That string tells the program what the allowable command-line arguments to the program are: b, e, g, and r. Each of them specifies a different filter that we might apply to our images: blur, edge detection, grayscale, and reflection. 
+In the filter.c file, you can notice the definition of filters on line 11. That string tells the program what the allowable command-line arguments to the program are: b, e, g, and r. Each of them specifies a different filter that we might apply to our images: blur, edge detection, grayscale, and reflection. 
 
 Example execution: ./filter -g images/yard.bmp out.bmp
 
